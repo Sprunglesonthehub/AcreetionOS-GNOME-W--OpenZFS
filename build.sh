@@ -2,6 +2,6 @@ if [ "ls /usr/bin | grep mkarchiso" != "mkarchiso" ] ; then
    sudo pacman -Syy archiso --noconfirm
 fi  
 
-rm -rf work/ && rm -rf out/ && sudo '/usr/bin/mkarchiso'  -L AcreetionOS-GNOME-with-OpenZFS -v -o ../ISO . -j$nproc && sudo rm -rf ./work
+rm -rf work/ && rm -rf out/ && sudo '/usr/bin/mkarchiso'  -L AcreetionOS-GNOME-with-OpenZFS -v -o ../ISO . -j12 && sudo rm -rf ./work
 
 

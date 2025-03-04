@@ -3,7 +3,6 @@ amd-ucode
 ananicy-cpp
 arch-install-scripts
 archinstall
-archzfs-linux
 b43-fwcutter
 base
 bcachefs-tools
@@ -164,6 +163,7 @@ xfsprogs
 xl2tpd
 yaml-cpp
 yay-bin
+zfs-dkms-staging-git
 zsh
 
 # VMWARE
